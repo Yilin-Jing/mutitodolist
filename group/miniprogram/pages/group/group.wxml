@@ -1,0 +1,17 @@
+<!--miniprogram/pages/group/group.wxml-->
+<view class='container'>
+  <view wv:if="{{true}}" class='group1'>
+    <view class='groupname'>组1</view>
+    <view class='grouptasks'>共 {{}} 个任务</view>
+    <view class='groupmember'></view>
+  </view>
+  <view class='group2'>
+    <view class='groupname'>组2</view>
+    <view class='grouptasks'>共 {{}} 个任务</view>
+    <view class='groupmember'></view>
+  </view>
+
+  <view bindtap='creategroup'>
+    <image class='create_icon' src='../../images/createicon.jpg'></image>
+  </view>
+</view>
